@@ -55,7 +55,8 @@ Background
     transform: translateY(-3px);
   }
 #f-heading{
-    font-size: 10vw;font-weight: 500;
+    font-size: 9.5vw;font-weight: 500;
+    margin-bottom: 0px;
 }
 #f-date{
     font-size: 3vw;
@@ -69,8 +70,21 @@ Background
     background-size: contain; 
     width: 100vw;   
 }
+#cont-ind
+{
+  transform:translateY(-7%);
+}
+/* @media only screen and (min-width: 200px) and (max-width: 767px)  {
+  
+  } */
+
 
   @media screen and (max-width : 600px){
+    #cont-ind
+    {
+      transform:translateY(-8.5%);
+    }
+ 
     .f-button button{
        padding: 5px 10px;      
     }
