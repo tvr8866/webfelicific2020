@@ -61,11 +61,13 @@ Background
 #f-date{
     font-size: 3vw;
 }
-
+a .card-title{
+  color: black;
+}
 
 .day1-bg
 {    
-    background-position: right;
+    
     background-repeat: repeat;
     background-size: contain; 
     width: 100vw;   
