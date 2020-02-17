@@ -71,6 +71,9 @@ Background
 }
 
   @media screen and (max-width : 600px){
+    .f-button button{
+       padding: 5px 10px;      
+    }
     #f-heading{
         font-size: 5em;
         font-weight: 500;
