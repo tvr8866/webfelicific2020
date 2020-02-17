@@ -1,0 +1,29 @@
+#icon-list{
+    text-align: center;
+}
+#icon-list .col-3 img{
+    width: 50px;    
+}
+.shadow{
+    height: 3px;
+    background-color: black;
+    filter: blur(6px);
+    width: 50px;    
+    /*transform:translateX(35px) translateY(4px);
+    */
+    transform:translateX(calc(100% - 13px)) translateY(calc(100% + 10px));
+} 
+
+body > div > div:nth-child(2) > div.col-md-5.offset-12.offset-md-1.pt-3 > div.container.text-md-center > div.row.nunito.text-center > div > a{
+    color:#1C0221;
+  }
+
+  @media screen and (max-width : 600px){
+     nav{
+        background-color: black;
+     }
+  }
+/*
+  *{
+      border: 2px solid red
+  }*/
