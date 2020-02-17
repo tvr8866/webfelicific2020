@@ -79,14 +79,24 @@ Background
   } */
 
 
+  @media screen and (max-width : 400px){
+    .hero-image {    
+      height: 105vh;
+    }
+    #cont-ind
+    {
+      transform:translateY(-20%);
+    }
+  }
   @media screen and (max-width : 600px){
     #cont-ind
     {
-      transform:translateY(-8.5%);
+      transform:translateY(-5%);
     }
  
     .f-button button{
-       padding: 5px 15px;      
+       padding: 5px 13px;      
+       font-size: 0.9em;
     }
     #f-heading{
         font-size: 5em;
@@ -95,6 +105,7 @@ Background
     #f-date{
         font-size: 1.5em;
     }
+    
   }
 
 
