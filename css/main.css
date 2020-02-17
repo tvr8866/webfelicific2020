@@ -55,7 +55,7 @@ Background
     transform: translateY(-3px);
   }
 #f-heading{
-    font-size: 9.5vw;font-weight: 500;
+    font-size: 8.5vw;font-weight: 500;
     margin-bottom: 0px;
 }
 #f-date{
@@ -86,7 +86,7 @@ Background
     }
  
     .f-button button{
-       padding: 5px 10px;      
+       padding: 5px 15px;      
     }
     #f-heading{
         font-size: 5em;
