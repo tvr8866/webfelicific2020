@@ -62,9 +62,14 @@ Background
     font-size: 3vw;
 }
 a .card-title{
-  color: black;
+  color: black;  
 }
-
+a:hover{ 
+  text-decoration: none;
+}
+a:focus { 
+  text-decoration: none;
+}
 .day1-bg
 {    
     
@@ -136,3 +141,24 @@ a .card-title{
     background: grey; 
   }
 
+
+
+
+
+  .e-num{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 8px;
+    margin-top: 8px;
+    position: absolute;
+    
+    color: white;    
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 8px;
+    display: table-cell;
+    vertical-align: middle;
+    box-shadow: 10px 10px 17px 0px rgba(0,0,0,0.75);
+  }
