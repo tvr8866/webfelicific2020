@@ -77,13 +77,20 @@ a:focus {
     background-size: contain; 
     width: 100vw;   
 }
-#cont-ind
+/* #cont-ind
 {
   transform:translateY(-7%);
-}
+} */
 /* @media only screen and (min-width: 200px) and (max-width: 767px)  {
   
   } */
+  .breadcrumb-item a{
+    color: black;
+  }
+  .breadcrumb > .active{
+    color: black;
+    font-weight: 900;
+  }
 
 
   @media screen and (max-width : 400px){

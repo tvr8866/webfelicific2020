@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felicific 2020</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css"/>    
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<style>
+		.scroll-container {							  
+			overflow-x:hidden;
+		}
+		.cont-full{
+			min-height: 100vh;						
+			display: flex;
+			justify-content: center;
+			/* align-items: center; */
+			background-position: center;
+  			background-repeat: no-repeat;
+  			background-size: cover;
+			padding-top: 100px;
+    	
+		}
+		.text-cnt
+		{
+			font-size: 1.2em;
+		}
+		.day1{
+			background: linear-gradient(to bottom, rgba(40,175,176,1) 0%, rgba(70,166,127,1) 100%);
+			-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+		}
+		.day2{
+			background: linear-gradient(352deg, rgba(2,0,36,1) 0%, rgba(255,135,44,1) 0%, rgba(241,29,40,1) 100%);
+			-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+		}
+		.day3{
+			background: linear-gradient(to bottom, rgba(0,121,198,1) 0%, rgba(247,110,232,1) 100%);
+			-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+		}
+		.day4
+		{	
+			background: linear-gradient(to bottom, rgba(17,244,254,1) 0%, rgba(0,56,185,1) 100%);
+
+			-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+		}
+		.day5{
+			background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(231,3,173,1) 0%, rgba(255,240,1,1) 100.2% );
+			-webkit-background-clip: text;-webkit-text-fill-color: transparent;
+		}
+		.pics{
+			margin-top: 5em;
+		}
+		@media screen and (max-width : 1100px){        
+			.text-cnt
+			{	
+				font-size: 1em;
+			}
+			.pics{
+				margin-top: 3em;
+			}
+		}
+/* 
+		*{
+			border: 2px solid red;
+		} */
+	</style>
+</head>
+<body style=" background-color: white;overflow-x: hidden;">    
+	<div class="container-flex" style="position:absolute;z-index: 5;">
+		<nav class="navbar navbar-expand-sm navbar-light nunito" style="width: 100vw;position: fixed;top: 0;background-color: white;">
+			<a class="navbar-brand" href="./index.html">
+				<img class="f-logo" src="./images/logo.png" alt=""/>       
+				  <svg class="f-header" xmlns="http://www.w3.org/2000/svg" width="234.5" height="54" viewBox="0 0 234.5 54">
+					<g id="Group_124" data-name="Group 124" transform="translate(-135 -28)">
+					  <text id="Felicific2020" transform="translate(135 28)" fill="#000" font-size="40" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="40">Felicific</tspan></text>
+					  <text id="_2020" data-name="2020" transform="translate(282.5 37.5)" fill="#000" font-size="30" font-family="Nunito-Bold, Nunito" font-weight="700"><tspan x="0" y="30">2020</tspan></text>
+					</g>
+				  </svg>
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+	  
+			<div class="collapse navbar-collapse" id="navbarsExample03">
+			  <ul class="navbar-nav ml-auto">
+				
+				<li class="nav-item">					
+					<a class="nav-link" href="./index.html" style="font-size:1.2em;color:#000;margin-right: 1em;">						
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40.503 31.496" style="width: 21px;transform:translateY(-2px);padding-right:0.2em">
+							<path id="Icon_awesome-home" data-name="Icon awesome-home" d="M19.714,10.425,6.75,21.1V32.625A1.125,1.125,0,0,0,7.875,33.75l7.879-.02A1.125,1.125,0,0,0,16.874,32.6v-6.73A1.125,1.125,0,0,1,18,24.75h4.5a1.125,1.125,0,0,1,1.125,1.125V32.6a1.125,1.125,0,0,0,1.125,1.129l7.876.022a1.125,1.125,0,0,0,1.125-1.125V21.094L20.789,10.425A.857.857,0,0,0,19.714,10.425Zm20.477,7.257-5.878-4.845V3.1a.844.844,0,0,0-.844-.844H29.531a.844.844,0,0,0-.844.844V8.2l-6.3-5.179a3.375,3.375,0,0,0-4.289,0L.305,17.681A.844.844,0,0,0,.193,18.87l1.793,2.18a.844.844,0,0,0,1.189.115L19.714,7.542a.857.857,0,0,1,1.076,0l16.54,13.622a.844.844,0,0,0,1.188-.112l1.793-2.18a.844.844,0,0,0-.12-1.19Z" transform="translate(0.001 -2.254)"/>
+						</svg>						  
+						Home						
+					</a>
+				  </li>          
+				  <li class="nav-item">
+					<a class="nav-link" href="#" style="font-size:1.2em;color:#000">
+						<svg xmlns="http://www.w3.org/2000/svg" width="27" height="30" viewBox="0 0 27 30" style="width: 21px;transform:translateY(-2px);padding-right:0.3em">
+							<path id="Icon_material-date-range" data-name="Icon material-date-range" d="M13.5,16.5h-3v3h3Zm6,0h-3v3h3Zm6,0h-3v3h3ZM28.5,6H27V3H24V6H12V3H9V6H7.5A2.986,2.986,0,0,0,4.515,9L4.5,30a3,3,0,0,0,3,3h21a3.009,3.009,0,0,0,3-3V9A3.009,3.009,0,0,0,28.5,6Zm0,24H7.5V13.5h21Z" transform="translate(-4.5 -3)"/>
+						  </svg>						  
+					Days
+				  </a>
+				  </li>              
+				<li class="nav-item">
+				  <a class="nav-link" href="contact.html" style="font-size:1.2em;color:#000">
+					<svg xmlns="http://www.w3.org/2000/svg" width="29.25" height="29.25" viewBox="0 0 29.25 29.25"  style="width: 21px;transform:translateY(-2px);padding-right:0.3em">
+						<path id="Icon_ionic-md-contact" data-name="Icon ionic-md-contact" d="M18,3.375A14.625,14.625,0,1,0,32.625,18,14.668,14.668,0,0,0,18,3.375Zm0,4.387a4.387,4.387,0,1,1-4.387,4.387A4.4,4.4,0,0,1,18,7.762Zm0,21.122A10.654,10.654,0,0,1,9.225,24.2c.07-2.925,5.85-4.535,8.775-4.535s8.7,1.61,8.775,4.535A10.672,10.672,0,0,1,18,28.884Z" transform="translate(-3.375 -3.375)"/>
+					  </svg>					  
+					Contact Us
+				</a>
+				</li>            
+				
+			  </ul>         
+			</div>
+		  </nav> 		  
+	</div>		  
+	<div class="container-snap">		
+		<div class="cont-full" style="background-color:white">
+				<div class="container-flex">
+					<div class="row text-center" style="margin-right: 0px;">
+						<div class="col-12 col-md-6 text-center">
+						<img src="images/cdays/day1-min.png" alt="executive day" class="img-fluid pics"/>
+						</div>
+						<!-- background: linear-gradient(45deg, rgba(19,170,170,1) 0%, rgba(19,170,170,1) 30%, rgba(2,242,150,1) 100%); -->
+						<div class="col-12 col-md-6 text-dark">
+								<div class="orw">
+									<h1 class="pb-2 display-4 display-md-2 sans day1">Executive Day </h1>
+									<h3 class="pb-5"><small><i>"Today's dreamer will be tomorrow's entrepreneur"</i></small></h3>
+								</div>
+								<div class="row sans m-2 m-md-2 text-cnt pt-2 pt-md-5">									
+									<div class="col-6"><legend class="day1"style="font-size: 3em;">2</legend>March</div>								
+									<div class="col-6"><legend class="day1"style="font-size: 3em;">MON</legend>DAY</div>
+								</div>	
+								<div class="row pt-3 pt-md-1 m-3 m-md-3">
+									<div class="col-12">
+										<!-- <h1 class="pb-2 display-2 display-md-2 sans day1">Executive Day </h1> -->
+										<!-- <h3 class="pb-5"><small><i>"Today's dreamer will be tomorrow's entrepreneur"</i></small></h3> -->
+										<p class="nunito text-cnt pt-md-4">Our budding engineers will step into the world of corporate within no time. To give them the feel of their upcoming professional life the first day of Felicific 2020 is Executive day. 
+											With shirts, suits and ties students will dress tip top to impress. This day is specially kept to get students used to the environment of corporate.
+										</p>
+									</div>									
+								</div>															
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="cont-full" style="background-color: white;">
+			<div class="container-flex">
+				<div class="row text-center" style="margin-right: 0px;">
+					<div class="col-12 col-md-6 text-center order-md-2">
+					<img src="images/cdays/day2-min.png" alt="Character day" class="img-fluid pics"/>
+					</div>
+					<!-- background: linear-gradient(45deg, rgba(19,170,170,1) 0%, rgba(19,170,170,1) 30%, rgba(2,242,150,1) 100%); -->
+					<div class="col-12 col-md-6 text-dark">
+							<div class="orw">
+								<h1 class="pb-2 display-4 display-md-2 sans day2">Character Day </h1>
+								<h3 class="pb-5"><small><i></i></small></h3>
+							</div>
+							<div class="row sans m-2 m-md-2 text-cnt pt-2 pt-md-5">									
+								<div class="col-6"><legend class="day2"style="font-size: 3em;">3</legend>March</div>								
+								<div class="col-6"><legend class="day2"style="font-size: 3em;">TUE</legend>DAY</div>
+							</div>	
+							<div class="row pt-3 pt-md-1 m-3 m-md-3">
+								<div class="col-12">
+									<!-- <h1 class="pb-2 display-2 display-md-2 sans day1">Executive Day </h1> -->
+									<!-- <h3 class="pb-5"><small><i>"Today's dreamer will be tomorrow's entrepreneur"</i></small></h3> -->
+									<p class="nunito text-cnt pt-md-4">
+										Whether it's the topper of the class or someone who seldom ply their books, one thing which is common in every student is their amusement for cinema.  
+Keeping this in mind the second day of Felicific 2020 is Character day.
+Students will dress up as their favorite TV, movie or web series character. 
+It can be as simple as someone with a t-shirt or a marvel superhero. Use your imagination to be the character you always wanted to be. 
+
+									</p>
+								</div>									
+							</div>															
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="cont-full" style="background-color:white">
+			<div class="container-flex">
+				<div class="row text-center" style="margin-right: 0px;">
+					<div class="col-12 col-md-6 text-center">
+					<img src="images/cdays/day3-min.png" alt="Traditional day" class="img-fluid pics"/>
+					</div>
+					<!-- background: linear-gradient(45deg, rgba(19,170,170,1) 0%, rgba(19,170,170,1) 30%, rgba(2,242,150,1) 100%); -->
+					<div class="col-12 col-md-6 text-dark">
+							<div class="orw">
+								<h1 class="pb-2 display-4 display-md-2 sans day3">Traditional Day </h1>
+								<h3 class="pb-5"><small><i></i></small></h3>
+							</div>
+							<div class="row sans m-2 m-md-2 text-cnt pt-2 pt-md-5">									
+								<div class="col-6"><legend class="day3"style="font-size: 3em;">4</legend>March</div>								
+								<div class="col-6"><legend class="day3"style="font-size: 3em;">WED</legend>DAY</div>
+							</div>	
+							<div class="row pt-3 pt-md-1 m-3 m-md-3">
+								<div class="col-12">
+									<!-- <h1 class="pb-2 display-2 display-md-2 sans day1">Executive Day </h1> -->
+									<!-- <h3 class="pb-5"><small><i>"Today's dreamer will be tomorrow's entrepreneur"</i></small></h3> -->
+									<p class="nunito text-cnt pt-md-4">
+										The theme of Felicific 2020 is Indian festival and culture, how could we do the fest without an aesthetic day.
+The third day of Felicific 2020 is Traditional day. Right from saree's to kurta's everyone will dress traditionally to pay tribute to our diverse and beloved culture. This day is kept to remind students of their roots and worldwide cherished dressing of India.
+
+									</p>
+								</div>									
+							</div>															
+					</div>
+				</div>
+			</div>
+	</div>
+	<div class="cont-full" style="background-color:white">
+		<div class="container-flex">
+			<div class="row text-center" style="margin-right: 0px;">
+				<div class="col-12 col-md-6 text-center order-md-2">
+				<img src="images/cdays/day4-min.png" alt="Patriotic day" class="img-fluid pics"/>
+				</div>
+				<!-- background: linear-gradient(45deg, rgba(19,170,170,1) 0%, rgba(19,170,170,1) 30%, rgba(2,242,150,1) 100%); -->
+				<div class="col-12 col-md-6 text-dark ">
+						<div class="orw">
+							<h1 class="pb-2 display-4 display-md-2 sans day4">Patriotic Day </h1>
+							<h3 class="pb-5"><small><i></i></small></h3>
+						</div>
+						<div class="row sans m-2 m-md-2 text-cnt pt-2 pt-md-5">									
+							<div class="col-6"><legend class="day4"style="font-size: 3em;">5</legend>March</div>								
+							<div class="col-6"><legend class="day4"style="font-size: 3em;">THU</legend>DAY</div>
+						</div>	
+						<div class="row pt-3 pt-md-1 m-3 m-md-3">
+							<div class="col-12">
+								<!-- <h1 class="pb-2 display-2 display-md-2 sans day1">Executive Day </h1> -->
+								<!-- <h3 class="pb-5"><small><i>"Today's dreamer will be tomorrow's entrepreneur"</i></small></h3> -->
+								<p class="nunito text-cnt pt-md-4">
+									The fourth day of Felicific 2020 is Patriotic day to honour our incredible nation and it's brave and fearless soldiers. 
+Students can either cloth as the tricolor of our flag or esteem the soldiers by wearing camouflage clothes. Our nation and the saviour of the nation do a lot for us, by keeping the patriotic day in our small way we want to thank them for their service.
+								</p>
+							</div>									
+						</div>															
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="cont-full" style="background-color:white">
+		<div class="container-flex">
+			<div class="row text-center" style="margin-right: 0px;">
+				<div class="col-12 col-md-6 text-center">
+				<img src="images/cdays/day5-min.png" alt="Group  day" class="img-fluid pics"/>
+				</div>
+				<!-- background: linear-gradient(45deg, rgba(19,170,170,1) 0%, rgba(19,170,170,1) 30%, rgba(2,242,150,1) 100%); -->
+				<div class="col-12 col-md-6 text-dark">
+						<div class="orw">
+							<h1 class="pb-2 display-4 display-md-2 sans day5">Group Day </h1>
+							<h3 class="pb-5"><small><i>"Ye dosti hum nahi chhodege"</i></small></h3>
+						</div>
+						<div class="row sans m-2 m-md-2 text-cnt pt-2 pt-md-5">									
+							<div class="col-6"><legend class="day5"style="font-size: 3em;">6</legend>March</div>								
+							<div class="col-6"><legend class="day5"style="font-size: 3em;">FRI</legend>DAY</div>
+						</div>	
+						<div class="row pt-3 pt-md-1 m-3 m-md-3">
+							<div class="col-12">
+								<!-- <h1 class="pb-2 display-2 display-md-2 sans day1">Executive Day </h1> -->
+								<!-- <h3 class="pb-5"><small><i>"Today's dreamer will be tomorrow's entrepreneur"</i></small></h3> -->
+								<p class="nunito text-cnt pt-md-4">
+									One thing we will surely take from our college life is our friends and memories with them. The fifth day of Felicific 2020 is the Group day.
+Students will synchronise with their group and wear similar clothes with their own special slogans. It is a chance to show that your group got that swag! 
+								</p>
+							</div>									
+						</div>															
+				</div>
+			</div>
+		</div>
+</div>
+	</div>
+	<div class="row" id="footer">
+        <div class="col-12 text-center">
+			<p class="copyright-text">Copyright © Felicific 2020</p>			
+		</div>
+		<div class="col-12">
+			<p style="font-size:0.6em">
+				Orignal Illustrations
+				<a href="http://www.freepik.com">Designed by pikisuperstar / Freepik</a>
+				/<a href="http://www.freepik.com">Designed by macrovector / Freepik</a>
+				/<a href="http://www.freepik.com">Designed by jemastock / Freepik</a>
+				/<a href="http://www.freepik.com">Designed by macrovector / Freepik</a>
+			</p>						
+		</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
