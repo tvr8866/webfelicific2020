@@ -102,6 +102,15 @@ a:focus {
       transform:translateY(-20%);
     }
   }
+  #navbarsExample03 > ul > li:nth-child(3) > a > svg{
+  margin-left: 0.3em;
+  }
+  @media screen and (max-width : 576px){
+    #navbarsExample03 > ul > li:nth-child(3) > a > svg{
+      margin-left: 0px;
+    }
+
+  }  
   @media screen and (max-width : 600px){
     #cont-ind
     {
